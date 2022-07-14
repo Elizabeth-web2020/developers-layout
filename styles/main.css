@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,900&family=Open+Sans:wght@300;400;700&family=Roboto:wght@100;300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+/* Header */
+
+.header {
+  width: 100vw;
+  height: 95px;
+  background-color: #67aefc;
+}
+.main-menu {
+  width: 80vw;
+  height: inherit;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation-menu {
+  display: flex;
+  width: 560px;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+.navigation-menu-item {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19.5px;
+}
+.navigation-menu-btn {
+  background-color: #75e169;
+  width: 170px;
+  height: 37.78px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 15px;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+}
+.banner {
+  width: 100vw;
+  height: 766px;
+  background-color: #fff;
+}
+
+/* Main */
+
+.main {
+  width: 100vw;
+}
+.accordeon {
+  width: inherit;
+  min-height: 703px;
+  background-color: #daecff;
+}
+
+/* Footer */
+
+.footer {
+}
