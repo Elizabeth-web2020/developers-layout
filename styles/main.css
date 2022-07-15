@@ -10,6 +10,28 @@
   max-width: 1169px;
   margin: auto;
 }
+.title {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 40px;
+  color: #111111;
+}
+.text {
+  font-style: normal;
+  font-weight: 400;
+  color: #000000;
+}
+.btn {
+  background: #75e169;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+  line-height: 15px;
+  color: #ffffff;
+}
 
 /* Header */
 
@@ -97,7 +119,7 @@
   top: 92px;
   right: 574.97px;
 }
-.banner-row {
+.banner-column {
   height: 766px;
   padding-top: 171px;
 }
@@ -113,25 +135,14 @@
 .banner-text {
   width: 432px;
   height: 88px;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-  color: #000000;
   margin-top: 20px;
   margin-bottom: 60px;
 }
 .banner-btn {
   width: 270px;
   height: 60px;
-  background: #75e169;
-  border: none;
-  border-radius: 5px;
-  font-weight: 700;
-  font-size: 15px;
-  text-transform: uppercase;
-  line-height: 15px;
-  color: #ffffff;
 }
 
 /* Main */
@@ -139,6 +150,9 @@
 .main {
   width: 100vw;
 }
+
+/* Accordion  */
+
 .main-accordion {
   min-height: 703px;
   background-color: #daecff;
@@ -154,13 +168,8 @@
 .accordion-title {
   /* width: 1000px; */
   height: 105px;
-  /* margin: auto; */
-  font-style: normal;
-  font-weight: 800;
-  font-size: 32px;
-  line-height: 40px;
   text-align: center;
-  color: #111111;
+  /* margin: auto; */
 }
 .accordion-item {
   margin-bottom: 10px;
@@ -243,9 +252,60 @@
   padding-top: 25px;
 }
 
+/* More Info */
+
+.more-info {
+  position: relative;
+  width: 100vw;
+  max-height: 724px;
+  background-color: #ffffff;
+  /* padding-top: 216px; */
+  z-index: 100;
+}
+.more-info-orders {
+  position: absolute;
+  width: 689.51px;
+  height: 483px;
+  top: -79px;
+  right: 144.48px;
+}
+.more-info-sphere {
+  position: absolute;
+  width: 59px;
+  height: 58px;
+  top: -66px;
+  left: 153px;
+}
+.more-info-column {
+  padding: 0 20px;
+}
+.more-info-title {
+  width: 630.67px;
+  min-height: 40px;
+  margin-top: 216px;
+}
+.more-info-text {
+  width: 669.65px;
+  min-height: 130px;
+  font-size: 18px;
+  line-height: 25px;
+  margin-top: 53px;
+  margin-bottom: 45px;
+}
+.more-info-btn {
+  width: 269.86px;
+  height: 60px;
+  margin-bottom: 180px;
+}
+
 /* Footer */
 
 .footer {
+  width: 100vw;
+  max-height: 469px;
+  background: #64ABF9;
+  padding-top: 101px;
+  padding-bottom: 79px;
 }
 
 @media screen and (max-width: 1600px) {
@@ -257,5 +317,11 @@
   }
   .accordion-bag {
     right: 50px;
+  }
+  .more-info-orders {
+    right: 50px;
+  }
+  .more-info-sphere {
+    left: 50px;
   }
 }
