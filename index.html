@@ -1,37 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Developers</title>
-  <link rel="stylesheet" href="./styles/main.css">
-  <script src="./scripts/main.js" defer></script>
-</head>
-<body>
-
-  <header class="header">
-    <div class="main-menu">
-      <a href="#">
-        <img src="./img/logo.png" alt="logo" class="logo">
-      </a>
-      <div class="navigation-menu">
-        <div class="navigation-menu-item">Услуги</div>
-        <div class="navigation-menu-item">Портфолио</div>
-        <div class="navigation-menu-item">Этапы</div>
-        <div class="navigation-menu-item">Дизайнеры</div>
-        <button type="button" class="navigation-menu-btn">Заказать</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Developers</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <script src="./scripts/main.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="main-menu container">
+        <a href="#">
+          <img src="./img/logo.png" alt="logo" class="logo" />
+        </a>
+        <div class="navigation-menu">
+          <div class="navigation-menu-item">Услуги</div>
+          <div class="navigation-menu-item">Портфолио</div>
+          <div class="navigation-menu-item">Этапы</div>
+          <div class="navigation-menu-item">Дизайнеры</div>
+          <button type="button" class="navigation-menu-btn">Заказать</button>
+        </div>
       </div>
-    </div>
-    <div class="banner"></div>
-  </header>
-  
-  <main class="main">
-    <div class="accordeon"></div>
-    <div class="slider"></div>
-  </main>
+      <div class="banner">
+        <div class="interactive-elements">
+          <img src="./img/ellipse.png" alt="ellipse" class="ellipse" />
+          <img
+            src="./img/small-ellipse.png"
+            alt="ellipse"
+            class="small-ellipse"
+          />
+          <img src="./img/ball.png" alt="sphere" class="sphere" />
+          <img src="./img/wawe.png" alt="wawe" class="wawe" />
+          <img src="./img/Cart.png" alt="cart" class="cart" />
+          <img src="./img/cylinder.png" alt="cylinder" class="cylinder" />
+        </div>
+        <div class="banner-row container">
+          <h1 class="banner-title">
+            Разработка интернет-магазина с нуля за неделю
+          </h1>
+          <p class="banner-text">
+            Дизайн интернет магазина, элементов микро UX, корзин, личного
+            кабинета - от фирменного стиля до пользовательского интерфейса в
+            сжатые сроки с командой Virtual Designers
+          </p>
+          <button class="banner-btn">Заказать</button>
+        </div>
+      </div>
+    </header>
 
-  <footer class="footer"></footer>
+    <main class="main">
+      <div id="accordion" class="main-accordion">
+        <h1 class="accordion-title container">
+          Что входит в услугу по созданию дизайна интернет-магазина?
+        </h1>
+        <img src="./img/bag.png" alt="bag" class="accordion-bag" />
+        <div class="acc-bag"></div>
+        <div class="accordion container">
+          <div class="accordion-item">
+            <div class="accordion-item-header">
+              <div class="accordion-header-title">
+                <p>Дизайн портала</p>
+                <img
+                  src="./img/arrow.png"
+                  alt="arr"
+                  class="accordion-content-arrow"
+                />
+              </div>
+            </div>
+            <div class="accordion-item-body">
+              <div class="accordion-item-body-content">
+                <div class="accordion-content-item">
+                  Дизайн портала — это оформление контента, совокупность всех
+                графических элементов на веб-странице. Основная задача дизайна —
+                познакомить пользователя со страницей. Продуманный дизайн
+                создает нужное впечатление о компании.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-item-header">
+              <div class="accordion-header-title">
+                <p>Дизайн адаптивной мобильной версии</p>
+                <img
+                  src="./img/arrow.png"
+                  alt="arr"
+                  class="accordion-content-arrow"
+                />
+              </div>
+            </div>
+            <div class="accordion-item-body">
+              <div class="accordion-item-body-content">
+                <div class="accordion-content-item">
+                  Мобильная версия сайта удобна для пользователя, потому что
+                  сильно упрощена по сравнению с обычной версией. Мобильная
+                  версия дает наиболее приоритетную информацию, а также
+                  позволяет совершать заказ/покупку с минимумом действий.
+                </div>
+                <div class="accordion-content-item">
+                  При адаптивной версии вся структура сайта автоматически
+                  подстраивается под различную ширину экрана. Для того, чтобы
+                  получить рабочий продукт не нужно писать все с нуля —
+                  достаточно лишь подправить CSS и HTML.
+                </div>
+                <div class="accordion-content-item">
+                  Один URL избавляет нас от ненужных редиректов, и надобности
+                  пользователю запоминать адрес мобильной версии.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-item-header">
+              <div class="accordion-header-title">
+                <p>Дизайн десктопной версии</p>
+                <img
+                  src="./img/arrow.png"
+                  alt="arr"
+                  class="accordion-content-arrow"
+                />
+              </div>
+            </div>
+            <div class="accordion-item-body">
+              <div class="accordion-item-body-content">
+                <div class="accordion-content-item">
+                  Десктопную версию сайта просматривают пользователи со
+                  стационарных компьютеров. Основная цель: посерфить, углубиться
+                  в детали, получить больше информации, сравнить, выбрать,
+                  прицениться.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-item-header">
+              <div class="accordion-header-title">
+                <p>Пользовательский интерфейс</p>
+                <img
+                  src="./img/arrow.png"
+                  alt="arr"
+                  class="accordion-content-arrow"
+                />
+              </div>
+            </div>
+            <div class="accordion-item-body">
+              <div class="accordion-item-body-content">
+                <div class="accordion-content-item">
+                  Цель дизайна пользовательского интерфейса - сделать
+                  взаимодействие максимально простым и эффективным, насколько
+                  это возможно, с точки зрения достижения целей пользователя.
+                  Хороший дизайн пользовательского интерфейса облегчает
+                  выполнение поставленной задачи, не привлекая к себе лишнего
+                  внимания.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-item-header">
+              <div class="accordion-header-title">
+                <p>Микро UX</p>
+                <img
+                  src="./img/arrow.png"
+                  alt="arr"
+                  class="accordion-content-arrow"
+                />
+              </div>
+            </div>
+            <div class="accordion-item-body">
+              <div class="accordion-item-body-dot"></div>
+              <div class="accordion-item-body-content">
+                Микро-анимация может изменить восприятие продукта,
+                пользовательское поведение и повысить конверсию. Небольшие,
+                преимущественно функциональные анимации поддерживают
+                пользователя: обеспечивают визуальную обратную связь и более
+                понятно отражают происходящие изменения. Микро-анимации способны
+                многое объяснить без слов.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slider"></div>
+    </main>
 
-</body>
+    <footer class="footer"></footer>
+  </body>
 </html>
