@@ -259,6 +259,106 @@
   padding-top: 25px;
 }
 
+/* Online Stores */
+
+.online-stores {
+  position: relative;
+  max-width: 100vw;
+  height: 1749px;
+  background: #daecff;
+  padding: 121px 0;
+}
+.online-stores-wave {
+  position: absolute;
+  width: 130.96px;
+  height: 189.92px;
+  top: 301px;
+  left: 23px;
+}
+.online-stores-sphere {
+  position: absolute;
+  width: 108.44px;
+  height: 108.44px;
+  top: 1390px;
+  right: 122.64px;
+}
+.online-stores-title {
+  width: 509px;
+  height: 40px;
+  margin-bottom: 13px;
+  margin: auto;
+}
+.online-stores-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.online-stores-content-item {
+  position: relative;
+  /* display: flex; */
+  width: 569.03px;
+  height: 447px;
+  margin-top: 38px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.online-stores-content-item::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #67aefc;
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+  border-radius: 15px;
+}
+.online-stores-content-item:hover::before {
+  opacity: 1;
+}
+.online-stores-item-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.online-store-item-wrapper {
+  position: absolute;
+  top: 198px;
+  right: 190px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  /* overflow: hidden; */
+}
+.online-store-item-wrapper > .online-stores-wrapper-title,
+.online-store-item-wrapper > .online-stores-wrapper-text {
+  transform: translateY(250px);
+  transition: transform .4s ease-out;
+}
+.online-stores-content-item:hover > .online-store-item-wrapper > .online-stores-wrapper-title,
+.online-stores-content-item:hover > .online-store-item-wrapper > .online-stores-wrapper-text {
+  transform: translateY(0);
+}
+.online-stores-wrapper-title {
+  /* width: 191px;
+  height: 38px; */
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  color: #ffffff;
+}
+.online-stores-wrapper-text {
+  /* width: 166.71px;
+  height: 27.94px; */
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
 /* More Info */
 
 .more-info {
@@ -485,7 +585,15 @@
   .accordion-bag {
     right: 50px;
   }
+  .online-stores-wave {
+    display: none;
+  }
+  .online-stores-sphere {
+    display: none;
+  }
   .more-info-orders {
+    width: 505px;
+    height: 389px;
     right: 50px;
   }
   .more-info-sphere {
