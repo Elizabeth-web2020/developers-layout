@@ -373,42 +373,16 @@
   border: 2px solid #67aefc;
   border-radius: 15px;
 }
-.slider-button:first-child {
-  /* margin-right: 30px; */
+.slider-button:hover {
+  background: #67AEFC;
 }
-/* .button-default {
-  background-color: #fff;
-  color: #5f5f61;
+.slider-button:hover svg circle {
+  fill: #67AEFC;
+  color: #FFFFFF;
 }
-.button-primary {
-  background: #f47322;
-  color: #fff;
+.slider-button:hover svg path {
+  fill: #FFFFFF;
 }
-.button {
-  border-radius: 25px;
-  padding: 12px 50px;
-  display: inline-block;
-  text-decoration: none;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 23px;
-} */
-/* .slide-summer {
-  background-image: url("../img/summer.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.slide-autumn {
-  background-image: url("../img/autumn.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.slide-vitamins {
-  background-image: url("../img/vitamins.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
 
 /* Online Stores */
 
@@ -625,6 +599,13 @@
   line-height: 20px;
   color: #939393;
   padding: 0 14px;
+}
+.contact-form-input:hover {
+  border: 2px solid #67AEFC;
+  color: #292929;
+}
+.contact-form-input:focus {
+  outline: none;
 }
 .contact-form-input + .contact-form-input {
   margin-top: 20px;
