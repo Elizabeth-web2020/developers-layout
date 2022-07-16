@@ -458,18 +458,24 @@
               class="contact-form-input name"
               type="text"
               placeholder="Имя"
+              maxlength="15"
+              pattern="[A-Za-z]{1,15}"
               required
             />
             <input
               class="contact-form-input phone"
               type="phone"
               placeholder="Telegram/Viber"
+              pattern="[0-9]{10,12}"
+              maxlength="12"
               required
             />
             <input
               class="contact-form-input email"
               type="email"
               placeholder="Email"
+              pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
+              maxlength="32"
               required
             />
             <button class="contact-form-btn btn" type="submit">
