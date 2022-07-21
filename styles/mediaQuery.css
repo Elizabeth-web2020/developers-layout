@@ -186,9 +186,11 @@
     max-width: 100vw;
     min-height: 600px;
   }
+  .footer-desktop {
+    flex-flow: column;
+  }
   .footer-info {
     display: flex;
-    flex-flow: column;
   }
   .footer-first-column, .footer-second-column, .footer-third-column {
     display: flex;
