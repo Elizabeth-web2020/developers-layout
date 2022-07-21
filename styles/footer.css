@@ -1,0 +1,96 @@
+/* Footer */
+
+.footer {
+  max-width: 100vw;
+  max-height: 469px;
+  background: #64abf9;
+  padding-top: 101px;
+  padding-bottom: 79px;
+}
+.footer-info {
+  display: flex;
+}
+.footer-mobile {
+  display: none;
+}
+.footer-first-column {
+  margin-right: 125.87px;
+}
+.footer-logo {
+  width: 280px;
+  height: 66px;
+}
+.footer-social-media {
+  width: 270px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 45.62px;
+}
+.inst {
+  width: 25.28px;
+  height: 25.28px;
+}
+.facebook {
+  width: 13.15px;
+  height: 25.28px;
+}
+.telegram {
+  width: 27.3px;
+  height: 25.28px;
+}
+.viber {
+  width: 23.98px;
+  height: 25.28px;
+}
+.whats-app {
+  width: 25.28px;
+  height: 25.28px;
+}
+.footer-second-column {
+  width: 382px;
+  height: 267px;
+  padding-top: 25px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+.footer-contacts-item {
+  display: flex;
+  margin-bottom: 13px;
+}
+.footer-contacts-item:last-child {
+  margin-bottom: 0px;
+}
+.footer-contacts-item img {
+  width: 21.56px;
+  height: 22.5px;
+  margin-right: 10px;
+}
+.footer-contacts-item p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.footer-rights {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ffffff;
+}
+.footer-third-column {
+  padding-top: 25px;
+  width: 133px;
+  height: 24px;
+  color: #ffffff;
+}
+.footer-mail {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: lowercase;
+}
